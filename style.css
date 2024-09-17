@@ -1,0 +1,97 @@
+body {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #e6dee9 100%);
+    color: #5D3A3A;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    color: #D81B60;
+}
+
+.card {
+    background-color: #FADADD;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    color: #6A4A4A;
+    max-width: 1000px;
+    margin: auto;
+}
+
+button {
+    background-color: #FF80AB;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F48FB1;
+}
+
+#arbol {
+    border: 2px solid #FF80AB;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #FADADD;
+    overflow: auto;
+}
+
+.nodo {
+    background: linear-gradient(135deg, #FF9A9E, #FAD0C4);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.nodo:hover {
+    transform: scale(1.1);
+}
+
+.nodo-hijos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nodo-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#error {
+    color: #D81B60;
+    font-weight: bold;
+}
+
+#recorridos {
+    background-color: #FADADD;
+    border: 2px solid #FF80AB;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#recorridos p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6A4A4A;
+}
+
+#preorden, #inorden, #postorden {
+    margin-bottom: 10px;
+}
